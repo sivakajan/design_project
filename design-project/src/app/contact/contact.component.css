@@ -1,0 +1,12 @@
+.vr{
+  float: left;
+  margin-top: 40px;
+}
+
+
+.vl {
+  border-left: 6px solid #040603;
+  height: 300px;
+  margin-left: 300px;
+  margin-top: 20px;
+}

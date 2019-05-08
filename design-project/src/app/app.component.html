@@ -1,0 +1,60 @@
+<div>
+
+  <div>
+    <app-menu></app-menu>
+    <app-login></app-login>
+  </div>
+  <div> </div>
+
+</div>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-1 to">
+      <div>
+        <a href="#" (click)="drop()" >Thing <i class="fas fa-angle-down"></i></a>
+        <div *ngIf="clo">
+           <ul class = "list-inline">
+             <li><i class="fas fa-angle-right"></i><a href="#">car</a></li>
+             <li><i class="fas fa-angle-right"></i><a href="#">lorry</a></li>
+             <li><i class="fas fa-angle-right"></i><a href="#">laptop</a></li>
+             <li><i class="fas fa-angle-right"></i><a href="#">tv</a></li>
+             <li><i class="fas fa-angle-right"></i><a href="#">van</a></li>
+            </ul>
+        </div>
+      </div>
+
+      <hr>
+
+      <div>
+        <a href="#" (click)="pop()" >Shop <i class="fas fa-angle-down"></i></a>
+        <div *ngIf="ope">
+          <ul class = "list-inline">
+            <li><i class="fas fa-angle-right"></i><a href="#" >gym</a></li>
+            <li><i class="fas fa-angle-right"></i><a href="#">base</a></li>
+            <li><i class="fas fa-angle-right"></i><a href="#">helton</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="col-11">
+      <app-advat></app-advat>
+      <app-contact></app-contact>
+      <app-aboutus></app-aboutus>
+     </div>
+
+
+  </div>
+
+</div>
+
+
+
+<div>
+<app-footer></app-footer>
+</div>

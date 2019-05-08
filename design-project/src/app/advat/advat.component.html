@@ -1,0 +1,17 @@
+<div class="to">
+  <div>
+    <h1>NEW collection</h1>
+  </div>
+
+
+  <div class="row">
+    <div class="col-xs-12 col-12">
+      <ul>
+        <li *ngFor="let item of nol | paginate: { itemsPerPage: 2, currentPage: p }">
+          <img [src]='item'>
+        </li>
+      </ul>
+      <pagination-controls (pageChange)="p = $event"></pagination-controls>
+    </div>
+  </div>
+</div>
